@@ -1,0 +1,50 @@
+\documentclass[hyperref={pdfpagelabels=false}]{beamer}
+\usepackage{lmodern}
+\usetheme{Frankfurt}
+\usecolortheme{crane}
+
+\title{Rectangle Cipher}  
+\author{\texttt{Hex Brains}} 
+\institute{
+	\includegraphics[scale=0.08]{logoiitbh}
+	
+	Department of \texttt{Computer Science And Engineering}\\ 
+	Indian Institute of Technology Bhilai}
+
+\begin{document}
+	\begin{frame}
+	\titlepage
+
+\end{frame} 
+
+\AtBeginSection[]
+{
+	\begin{frame}<beamer>
+	\frametitle{Outline}
+	\tableofcontents[currentsection]
+\end{frame}
+}
+
+\input{intro}
+\input{spec}
+\input{observe}
+\input{bpnominate}
+\input{conclu}
+
+
+\begin{frame}{Thanks}
+\begin{block}{Team Members}
+	\begin{itemize}
+		\item Shreyas Pande 
+		\item Niket Srivastav
+		\item Prathamesh Gujar
+	\end{itemize}
+\end{block}
+\begin{block}{Implementation Info}
+	\begin{itemize}
+		\item Github Link: https://github.com/shreyaspande2003/Rectangle-Cipher
+	\end{itemize}
+\end{block}
+\end{frame}
+
+\end{document}
